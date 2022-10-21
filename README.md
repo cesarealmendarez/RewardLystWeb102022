@@ -1,15 +1,18 @@
-RewardLyst Web Application for Businesses (development version 102022)
+# RewardLyst Web Application for Businesses (development version 102022)
 
-Active Libraries:
+### Active Libraries:
 
-User Interface
-    tailwindcss
-    @nextui-org/react
-    @heroicons/react
-    @headlessui/react
+#### User Interface 
+<br/>
+tailwindcss
+@nextui-org/react
+@heroicons/react
+@headlessui/react
     
-Navigation
-    react-router-dom@6
+#### Navigation
+<br/>
+react-router-dom@6
 
-Database
-    firebase
+#### Database
+<br/>
+firebase
