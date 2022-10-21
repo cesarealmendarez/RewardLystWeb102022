@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import App from './App';
 import { NextUIProvider } from "@nextui-org/react";
+import BusinessDashboard from './Stage1/BusinessDashboard';
+import CustomerRewardAmendmentModal from "./Stage1/TestViews/CustomerRewardAmendmentModal";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <NextUIProvider>
-            <App />
+            <CustomerRewardAmendmentModal />
         </NextUIProvider>
     </React.StrictMode>
 );
